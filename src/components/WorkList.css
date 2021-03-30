@@ -3,10 +3,10 @@
 }
 
 .roba-card{
-    min-height:33vh;
-    max-height:40vh;
+    min-height: 50vh;
+    max-height: 80vh;
     margin:1rem;
-    padding:5rem;
+    padding:5rem 2rem;
     background-color: #eb6b0f;
     border-radius: 7em .5em;
     color:#fff;
@@ -30,6 +30,7 @@ margin:auto 0;
 .roba-card-icon{
     height:6em;
     margin-bottom:2em;
+    padding:1rem;
 }
 
 

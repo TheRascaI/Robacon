@@ -11,10 +11,9 @@ body, a{
 #root{
  width:100vw;
  width:100%;
- padding:2rem;
+ padding:1rem;
 }
 #app{
-  padding:1rem;
   font-family: 'Cairo', sans-serif;
   
 }
@@ -24,9 +23,11 @@ padding:0;
 
 h2{
   font-size: 2.2rem;
+  padding:1rem;
 }
 
 p{
+  padding:1rem;
   margin:0.25rem 0;
   font-family: arno-pro, serif;
 font-weight: 400;
@@ -47,6 +48,7 @@ line-height: 1.5em;
 }
 .content-col{
   margin:auto 0;
+  padding:0;
 }
 
 @media only screen and (min-width: 768px) {
