@@ -1,6 +1,6 @@
 .navbar{
     font-size: 1.65rem !important;
-    padding:2rem 0;
+    padding:1rem 0 4rem 0;
 }
 .container{
    padding:0;
@@ -8,3 +8,5 @@
 .nav-item{
     margin: 0 1rem;
 }
+
+

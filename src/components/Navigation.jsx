@@ -24,7 +24,7 @@ const Navigation = () =>{
             </ul>
           </div>
           
-          <a class="nav-link" href="#contact">Noch Fragen?</a>
+          
         </div>
       </nav>
 

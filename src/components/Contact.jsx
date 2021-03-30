@@ -8,7 +8,7 @@ const Contact = ()=>{
         <div id="contact" className="container-fluid roba-section">
             <div className="row">
                 <div className="col-sm-6 contact-col">
-                <img src={phone} alt="phone" width="800" className="contact-img" />
+                <img src={phone} alt="phone" className="contact-img" />
                 </div>
                 <div className="col-sm-6 contact-col">
                 <h2>Lorem ipsum dolor sit amet, consetetur

@@ -4,11 +4,9 @@
 
 .roba-card{
     min-height:33vh;
-    max-height:42vh;
+    max-height:40vh;
     margin:1rem;
     padding:5rem;
-
-
     background-color: #eb6b0f;
     border-radius: 7em .5em;
     color:#fff;
@@ -32,4 +30,17 @@ margin:auto 0;
 .roba-card-icon{
     height:6em;
     margin-bottom:2em;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .roba-card{
+        min-height:33vh;
+        max-height:100vh;
+        margin:1rem 0;
+        padding:5rem 2rem;
+    
+        border-radius: 7em .5em;
+
+    }   
 }

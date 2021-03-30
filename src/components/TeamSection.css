@@ -1,6 +1,7 @@
 #team{
     padding-left: 0px;
     padding-right: 0px;
+    min-height: 100vh;
 }
 
 
@@ -21,3 +22,12 @@
 
     
 }
+
+
+@media only screen and (max-width: 768px) {
+
+.roba-team-card{
+margin-top:15rem;
+}
+    
+    }
