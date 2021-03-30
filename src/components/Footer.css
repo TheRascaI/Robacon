@@ -1,0 +1,21 @@
+footer{
+    height:5rem;
+}
+
+.footer-ul{
+    list-style-type:none;
+    text-align: center;
+    height:100%;
+    max-width:600px;
+    padding:0;
+    display:flex;
+}
+ .footer-ul li{
+    float:left;
+    flex:1;
+    
+    margin:auto 2rem;
+    text-align: center;
+ }
+
+ 
