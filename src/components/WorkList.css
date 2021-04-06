@@ -3,13 +3,14 @@
 }
 
 .roba-card{
-    min-height: 50vh;
+    min-height: 45vh;
     max-height: 80vh;
     margin:1rem;
-    padding:5rem 2rem;
+    padding:3rem 2rem;
     background-color: #eb6b0f;
     border-radius: 7em .5em;
     color:#fff;
+
     
     box-shadow: 0px 10px 2px 0px rgba(46,42,90,0.5);
 -webkit-box-shadow: 0px 10px 2px 0px rgba(46,42,90,0.5);
@@ -22,7 +23,9 @@
  
   
 }
-
+.roba-list-row{
+    padding: 0 10rem;
+}
 .roba-list-col{
 margin:auto 0;
 }
@@ -39,9 +42,12 @@ margin:auto 0;
         min-height:33vh;
         max-height:100vh;
         margin:1rem 0;
-        padding:5rem 2rem;
+        padding:3rem 2rem;
     
         border-radius: 7em .5em;
 
-    }   
+    } 
+    .roba-list-row{
+        padding:0
+    }  
 }

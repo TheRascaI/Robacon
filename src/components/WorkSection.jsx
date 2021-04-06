@@ -1,7 +1,8 @@
 import React from "react";
 import "./WorkSection.css";
 
-
+ import ScrollAnimation from 'react-animate-on-scroll';
+ import "animate.css/animate.min.css";
 
 const WorkSection = () =>{
     return(
@@ -9,11 +10,11 @@ const WorkSection = () =>{
 
             <div className="row">
                 <div className="col-sm-6 content-col">
-                <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur
+                <ScrollAnimation animateIn="fadeIn" animateOut="fadeOutDown">    <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</h2> </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeIn" animateOut="fadeOutDown">   <p>Lorem ipsum dolor sit amet, consetetur
 sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna
-aliquyam erat, sed diam voluptua.</p>
+aliquyam erat, sed diam voluptua.</p> </ScrollAnimation>
                 </div>
                 <div className="col-sm-6">
                 </div>

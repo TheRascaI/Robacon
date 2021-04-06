@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 import "./RobaButton.css";
 
+
 const RobaButton = () => {
+
+    const [getHover, setHover] = useState(false);
+    const handleClick = () => {
+
+    }
+    const handleOver = () =>{
+        setHover(true);
+    }
+    const handleOut = () =>{
+        setHover(false);
+    }
+
     return(
-        <div className="roba-button">
+        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOutDown">  <div style={{backgroundColor: getHover && "#2e2a5a"}} onMouseOver={handleOver} onMouseOut={handleOut} onClick={handleClick} className="roba-button">
             <h2><a href="mailto:info@roba-con">Join!</a></h2>
-        </div>
+        </div></ScrollAnimation>
     )
 }
 export default RobaButton;

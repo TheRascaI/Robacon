@@ -12,8 +12,11 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
    <div id="app">
-<Navigation />
-<AboutSection />
+   <Navigation />
+   
+   <AboutSection />
+
+
 <WorkSection />
 <WorkList />
 <TeamSection />
@@ -24,3 +27,16 @@ const App = () => {
 }
 
 export default App;
+
+//  TweenMax.to(document.getElementById("myDiv"), 5, {
+//   bezier:{curviness:1.25,
+//   values:[
+//     {x:100, y:250},
+//     {x:300, y:0},
+//     {x:500, y:400}
+//   ]
+//   ,autoRotate:true
+// }
+//   ,backgroundColor:"#f00"
+//   ,ease:Power1.easeInOut
+// }

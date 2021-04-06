@@ -17,8 +17,7 @@ const TeamSection = () => {
         <div className="row" style={sectionStyle}>
             <div className="col-sm-6 order-1 content-col">
             <div className="roba-team-card">
-            <h2>Lorem ipsum dolor sit amet, consetetur
-sadipscing elitr, sed</h2>
+            <h2>Unsere Teamarbeit trägt Früchte.</h2>
 <RobaButton />
             </div>
             
