@@ -1,6 +1,9 @@
 #contact-header{
     position:fixed;
     z-index:9999;
+    width:100%;
+
+    
 }
 
 .contact-header-ul{
@@ -9,6 +12,7 @@
     text-align: center;
     height:100%;
     width:100%;
+    margin:0 auto;
     max-width:500px;
     padding:0.25rem 0 0.35rem 0;
     display:flex;

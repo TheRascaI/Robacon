@@ -1,9 +1,11 @@
 import React from "react";
+import ReactDOM from 'react-dom';
+
 import "./ContactHeader.css";
 import '../fontello/css/fontello.css';
 
 const ContactHeader = () => {
-    return(
+    return ReactDOM.createPortal(
         <div id="contact-header" className="container-fluid">
 
 <div className="row">
@@ -17,8 +19,10 @@ const ContactHeader = () => {
             </div>
 
 
-</div>
-    )
+</div>,
+        document.getElementById('sticky-nav-hook')
+      );
+       
 };
 
 export default ContactHeader;
