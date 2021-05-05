@@ -27,12 +27,6 @@ const WorkList = () => {
     backgroundRepeat: "no-repeat",
         backgroundImage: `url(${memberImage2})`,
       };
-      const memberCard3BG = {
-        width: "100%",
-        
-    backgroundRepeat: "no-repeat",
-        backgroundImage: `url(${memberImage2})`,
-      };
 
     return(
         <div id="work-list" className="container-fluid roba-section">
