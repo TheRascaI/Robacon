@@ -1,25 +1,25 @@
 import React from "react";
-import logo from "../assets/logo.svg"
 import "./Navigation.css"
 
 const Navigation = () =>{
     return(
-        <nav class="navbar navbar-expand-lg navbar-light m-auto">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#app"><h1 className="sr-only">Roba-Con</h1><img src={logo} height="35px" alt="roba-con logo" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      
+        <nav className="navbar navbar-expand-lg navbar-light m-auto">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#app"><h1 className="sr-only">Roba-Con</h1><img src="https://vcard.roba-con.de/static/media/mini_logo.8be80214.svg" alt="robacon-logo" height="50" /></a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="ml-auto navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about">About Us</a>
+          <div className="collapse navbar-collapse " id="navbarNav">
+            <ul className="ml-auto navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#about">Wir</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#work">Work</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#work">Leistungen</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#partner">Partner</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">Kontakt</a>
               </li>
             </ul>
           </div>

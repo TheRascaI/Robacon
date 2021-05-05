@@ -20,7 +20,7 @@ sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna
 aliquyam erat, sed diam voluptua.
 </p>
-<RobaButton />
+<RobaButton content="Anrufen"/>
                 </div>
             </div>
         </div>

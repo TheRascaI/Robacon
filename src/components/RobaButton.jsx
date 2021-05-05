@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import "./RobaButton.css";
 
 
-const RobaButton = () => {
+const RobaButton = (props) => {
 
     const [getHover, setHover] = useState(false);
     const handleClick = () => {
@@ -18,7 +18,7 @@ const RobaButton = () => {
 
     return(
         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOutDown">  <div style={{backgroundColor: getHover && "#2e2a5a"}} onMouseOver={handleOver} onMouseOut={handleOut} onClick={handleClick} className="roba-button">
-            <h2><a href="mailto:info@roba-con">Join!</a></h2>
+            <h2><a href="mailto:info@roba-con">{props.content}</a></h2>
         </div></ScrollAnimation>
     )
 }

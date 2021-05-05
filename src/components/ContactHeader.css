@@ -1,0 +1,27 @@
+#contact-header{
+}
+
+.contact-header-ul{
+    background-color: #eb6b0f;
+    list-style-type:none;
+    text-align: center;
+    height:100%;
+    width:100%;
+    max-width:500px;
+    padding:0.25rem 0 0.35rem 0;
+    display:flex;
+}
+ .contact-header-ul li{
+    float:left;
+    flex:1;
+    font-size: 0.8em;
+    margin:auto;
+    text-align: center;
+ }
+.contact-header-ul li a{
+    color:#ffffff!important;
+}
+.icon{
+    color:#ffffff;
+    margin:0 0.25rem;
+}

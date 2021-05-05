@@ -11,7 +11,7 @@ body, a{
 #root{
  width:100vw;
  width:100%;
- padding:1rem;
+ padding: 0 1rem;
 }
 #app{
   font-family: 'Cairo', sans-serif;
@@ -23,11 +23,10 @@ padding:0;
 
 h2{
   font-size: 2.2rem;
-  padding:1rem;
 }
 
 p{
-  padding:1rem;
+  padding:1rem 0;
   margin:0.25rem 0;
   font-family: arno-pro, serif;
 font-weight: 400;
@@ -48,14 +47,18 @@ line-height: 1.5em;
 }
 .content-col{
   margin:auto 0;
-  padding:0;
+
+
 }
 
+.card-container ul{
+  margin:0;
+}
 @media only screen and (min-width: 768px) {
 
 .content-col{
   
-  padding:0 5rem 0 15rem;
+  padding:0 10rem 0 18rem;
 }
 
 }

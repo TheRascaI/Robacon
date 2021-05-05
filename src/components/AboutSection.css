@@ -1,3 +1,6 @@
 #about{
     background-image: url("../assets/background.png");
+    background-size: contain;
+    background-position: bottom right;
+    margin: 0 0 15rem;
 }

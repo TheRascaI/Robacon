@@ -8,7 +8,6 @@ var sectionStyle = {
     
 backgroundRepeat: "no-repeat",
     backgroundImage: `url(${teamImage})`,
-    
   };
 
 const TeamSection = () => {
@@ -18,7 +17,7 @@ const TeamSection = () => {
             <div className="col-sm-6 order-1 content-col">
             <div className="roba-team-card">
             <h2>Unsere Teamarbeit trägt Früchte.</h2>
-<RobaButton />
+<RobaButton content="Kontakt" />
             </div>
             
             </div>
