@@ -1,4 +1,6 @@
 #contact-header{
+    position:fixed;
+    z-index:9999;
 }
 
 .contact-header-ul{
