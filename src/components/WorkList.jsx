@@ -3,8 +3,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
 import "./WorkList.css";
-import calendar from "../assets/calendar-icon.svg";
-
 import '../fontello/css/fontello.css';
 
 
